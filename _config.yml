@@ -22,9 +22,9 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md", title: "CV", sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Mail", icon: envelope, url: "mailto:qxt360@student.bham.ac.uk"}
-  - {title: "Github", icon: github, url: "https://github.com/qf-tong"}
-  - {title: "Bluesky", icon: Bluesky, url: "https://bsky.app/profile/qf-tong.bsky.social"}
+  - {title: Mail, icon: envelope, url: "mailto:qxt360@student.bham.ac.uk"}
+  - {title: Github, icon: github, url: "https://github.com/qf-tong"}
+  - {title: Bluesky, icon: bluesky, url: "https://bsky.app/profile/qf-tong.bsky.social"}
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
