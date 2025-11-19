@@ -19,7 +19,8 @@ show_minimal: false             # remove all clutter
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "archive.html", title: "Home", sidebaricon: home}
-  - {file: "README.md", title: "CV", sidebaricon: address-card}
+  - {file: "CV_112026.pdf", title: "CV", sidebaricon: address-card}
+  - {}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:qxt360@student.bham.ac.uk"}
