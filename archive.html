@@ -4,10 +4,21 @@ layout: default
 ---
 
 <main>
+  <!-- 新增文字和图片 -->
+  <section class="intro">
+    <p>Hello! I am Qingfeng.</p>
+    <img src="{{ '/assets/images/home.jpg' | relative_url }}" alt="Profile Picture" style="max-width:300px; height:auto;">
+  </section>
+
   <header><h1>{{ include.title | default: page.title }}</h1></header>
+
   <nav class="smooth">
     {% for post in site.posts %}
-    <div><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+    <div>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </div>
     {% endfor %}
   </nav>
 </main>
+
