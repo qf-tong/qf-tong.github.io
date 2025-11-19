@@ -19,7 +19,7 @@ show_minimal: false             # remove all clutter
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "archive.html", title: "Home", sidebaricon: home}
-  - {url: "- {url: "https://raw.githubusercontent.com/qf-tong/qf-tong.github.io/master/CV_112026.pdf", title: "CV", sidebaricon: address-card}
+  - {url: "https://raw.githubusercontent.com/qf-tong/qf-tong.github.io/master/CV_112026.pdf", title: "CV", sidebaricon: address-card}
 ", title: "CV", sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
